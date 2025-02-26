@@ -1,30 +1,50 @@
 # IndoTool
 
-A UI tool for automating video editing tasks.
+A node-based mindmap visualization tool for knowledge management and collaboration.
 
 ## Description
 
-IndoTool is a comprehensive suite of utilities designed to streamline and automate video editing workflows, providing a user-friendly interface for common editing tasks.
+IndoTool is a Python/Qt desktop application that allows users to visualize artifacts, conversations, and notes in an interactive node-based mindmap. It processes various input formats (file system, markdown, JSON, XML, YAML) and provides an intuitive interface for navigating complex information spaces.
 
 ## Installation
 
 ```bash
-# Installation instructions will go here
+# Clone the repository
+git clone https://github.com/PrimeDeviation/IndoTool.git
+cd IndoTool
+
+# Create a virtual environment (recommended)
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
 ```
 
 ## Usage
 
 ```python
-# Code examples will go here
+# Launch the application
+python main.py
+
+# Or import as a module in your own project
+from indotool import MindMap
+
+# Create a new mind map from various sources
+mindmap = MindMap()
+mindmap.add_from_directory("path/to/files")
+mindmap.add_from_markdown("path/to/notes.md")
+mindmap.add_from_json("path/to/data.json")
 ```
 
 ## Features
 
-- Automated image processing for video integration
-- Smart clip management and organization
-- Batch processing of media assets
-- Custom transition templates
-- Timeline optimization tools
+- Interactive node-based visualization of knowledge graphs
+- Support for multiple input formats (filesystem, MD, JSON, XML, YAML)
+- Seamless integration with external tools and chat conversations
+- Efficient navigation and exploration of complex information spaces
+- Comprehensive functional testing suite
+- Cross-platform support via Python and Qt
 
 ## Contributing
 
