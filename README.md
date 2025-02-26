@@ -1,10 +1,10 @@
 # IndoTool
 
-A tool for Indonesian language processing and analysis.
+A UI tool for automating video editing tasks.
 
 ## Description
 
-IndoTool is a comprehensive suite of utilities designed to work with the Indonesian language, providing capabilities for text analysis, processing, and generation.
+IndoTool is a comprehensive suite of utilities designed to streamline and automate video editing workflows, providing a user-friendly interface for common editing tasks.
 
 ## Installation
 
@@ -20,9 +20,11 @@ IndoTool is a comprehensive suite of utilities designed to work with the Indones
 
 ## Features
 
-- Feature 1
-- Feature 2
-- Feature 3
+- Automated image processing for video integration
+- Smart clip management and organization
+- Batch processing of media assets
+- Custom transition templates
+- Timeline optimization tools
 
 ## Contributing
 
